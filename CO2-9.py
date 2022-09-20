@@ -1,0 +1,10 @@
+import numpy as np
+print("JOYAL JOSE\n21MCA026")
+print(" 1D array\n----------")
+ar=np.array([1,2,3])
+print(ar)
+print("\n 2D array\n----------")
+ar1=np.array([[1,2,3],[3,4,5],[6,7,8]])
+print(ar1)
+print("\nDiagonal Elements of 2D array")
+print(np.diag(ar1))
